@@ -1,4 +1,4 @@
-﻿namespace MonoMovieViewer
+﻿namespace MonoVideoViewer
 {
     partial class MainWindow
     {
