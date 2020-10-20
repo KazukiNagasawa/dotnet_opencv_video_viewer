@@ -5,13 +5,13 @@ LIBS=-lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_video -lopencv_v
 SRCS=$(wildcard src/*.cpp)
 
 
-all: libvideo_player.so
+all: libvideo_viewer.so
 
-libvideo_player.so: $(SRCS)
+libvideo_viewer.so: $(SRCS)
 	g++ -shared -fPIC -o $@ $^ -I$(OPENCV_INCLUDE_DIR) -L$(OPENCV_LIB_DIR) $(LIBS)
 
 clean:
-	rm libvideo_player.so
+	rm libvideo_viewer.so
 
 
 

@@ -46,6 +46,8 @@ int initialize(char* videoPath, int width, int height)
     std::cout << "Display size : " << windowWidth << " x " << windowHeight << std::endl;
     std::cout << "Video size : " << w << " x " << h << std::endl;
     std::cout << "Resize scale : " << wScale << " x " << hScale << std::endl;
+
+    return STATUS_OK;
 }
 
 int getFrame(byte* data)
