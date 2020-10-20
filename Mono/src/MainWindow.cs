@@ -26,7 +26,7 @@ namespace MonoVideoViewer
 
 	    // Bitmap data settings
             this.data = new byte[this.width * this.height * 4];
-            this.bmp = new Bitmap(width, height);
+            this.bmp = new Bitmap(this.width, this.height);
 
 	    // Image window setting
 	    this.pictureBox.Width = this.width;
