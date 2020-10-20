@@ -51,8 +51,10 @@ make
 ### 実行
 - Mono 版
 ```
+./exec_mono_video_viewer.sh
 ```
 
 - AvaloniaUI 版
 ```
+./exec_avalonia_video_viewer.sh
 ```
