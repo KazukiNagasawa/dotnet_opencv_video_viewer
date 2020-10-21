@@ -8,7 +8,6 @@
  ( AvaloniaUI 版スナップショット )
  ![AvaloniaUI snapshot](https://github.com/KazukiNagasawa/dotnet_opencv_video_viewer/blob/main/images/snapshot_avalonia_ui.png)
 
-( ※ スナップショットの動画はフリーサイト「Pexels」より拝借。https://www.pexels.com/video/raging-river-1656939/ )
 
 ## 環境
 以下の環境で動作確認した。
